@@ -4,11 +4,13 @@
   border: 2px solid var(--colorPrimary);
   border-radius: 5px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
-.bag-call-to-action .track-order a {
+.bag-call-to-action a {
   text-decoration: none;
   color: var(--colorPrimary);
+  cursor: pointer;
 }
 
 .bag-goback.cont {
@@ -24,6 +26,9 @@
   margin-bottom: 20px;
 }
 
+.tracker {
+  cursor: pointer;
+}
 @media only screen and (max-width: 991px) {
   .bag-call-to-action {
     display: flex;

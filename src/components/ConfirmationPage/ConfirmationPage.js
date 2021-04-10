@@ -29,8 +29,8 @@ const ConfirmationPage = (props) => {
                     </div>
 
                     <div className="bag-call-to-action">
-                        <button className="track-order"><Link to="/track-order">Track Order</Link></button>
-                        <button className="bag-goback cont"><Link onClick={handleClick} to="/">Continue Shopping</Link></button>
+                        <Link className="tracker" to="/track-order"><button className="track-order">Track Order</button></Link>
+                        <Link onClick={handleClick} to="/"><button className="bag-goback cont">Continue Shopping</button></Link>
                     </div>
                 </div>
             </div>

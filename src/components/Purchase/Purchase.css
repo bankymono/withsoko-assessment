@@ -87,6 +87,7 @@
   justify-content: center;
   /* margin: 0 auto; */
   padding: 10px 20px;
+  cursor: pointer;
 }
 
 button.enabled {
@@ -230,6 +231,7 @@ button.enabled {
   color: var(--colorPrimary);
   font-weight: bold;
   font-size: 20px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 991px) {

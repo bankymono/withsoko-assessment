@@ -1,0 +1,83 @@
+.sub-address-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+
+.sub-address-container > div {
+    border-radius: 10px;
+    border: 1px solid #bbbdbe;
+    padding: 20px;
+}
+
+.card-status button{
+    cursor: pointer;
+    padding: 10px 10px 10px 0;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-status .delete{
+    color: red;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.new-addr-button{
+    font-weight: bold;
+    display: flex;
+    align-items:center;
+    justify-content:center;    
+    color: #0f4983;
+    cursor: pointer;
+}
+
+.addr-modal-header{
+    border-bottom: 1px solid #0f4983;
+    display: flex;
+    justify-content: space-between;
+    /* padding-bottom: 10px; */
+    padding: 10px 20px;
+}
+
+.addr-modal-header button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.address-input{
+    padding: 10px 20px;
+    color: #575757;
+    display: grid;
+    row-gap: 30px;
+    margin-top: 12px;
+}
+
+.modal-form-field{
+    display: grid;
+    row-gap: 10px;
+    flex-direction: column;
+}
+
+.modal-form-field input{
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #575757;
+}
+
+.address-input button{
+    background-color: var(--colorYellow);
+    border-radius: 5px;
+    font-weight: bold;
+    color: var(--colorPrimary);
+    border: none;
+    width: 40%;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}

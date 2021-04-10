@@ -1,0 +1,119 @@
+.track-order-section{
+    width: 80%;
+    margin: 100px auto;
+    color: hsl(0, 0%, 39%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #949292;
+    border-radius: 8px;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* background-color: red; */
+    padding: 20px;
+}
+
+.tracker.card-item-name{
+    margin-bottom: 10px;
+}
+
+.tracker.card-item{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c2bfbf;
+}
+
+.tracker-icon{
+    color: #737473;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.tracker-icon.active{
+    color: #06b106;
+    /* font-size: 40px; */
+}
+
+.productListItem-overall.tracking{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price.tracking-list-size{
+    display: flex;
+}
+
+.product-price.tracking-list-size > div{
+    margin-right: 20px;
+}
+
+.product-price.tracking-list-size .prod-color{
+    display: flex;
+}
+
+
+.product-price.tracking-list-size .prod-color  div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;    
+    background-color: #173a17;
+    margin-left: 10px;
+}
+
+.product-price.tracking-list-val{
+    padding: 3px;
+    background-color: #e9e8e8;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.product-price.tracking{
+    font-weight: bold;
+}
+
+.prodList-tracker{
+    border-bottom: 1px solid #949292;
+    padding: 10px 0;
+}
+
+.prodList-tracker .item-no{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.prodList-last-cont{
+    border-top: 1px solid #949292;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.prodList-last-cont .summary .heading{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: 30px;
+}
+
+.prodList-last-cont .name {
+    font-weight: bold;
+    color: #4c4d4c;
+    padding: 12px 0 8px 0;
+}
+
+.prodList-last-cont .type-of-purchase{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.prodList-last-cont .tel{
+    padding: 24px 0 8px 0;
+    font-weight: bold;
+}
+
+.prodList-last-cont .addr{
+    font-size: 16px;
+}

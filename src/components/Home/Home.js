@@ -1,9 +1,13 @@
 import React from 'react'
+import Footer from '../Footer/Footer'
+import ProductList from './ProductList/ProductList'
 
-const Home = () => {
+const Home = (props) => {
+    console.log('home', props)
     return (
         <div>
-            This is the home page
+            <ProductList parentProp={props} />
+            <Footer />
         </div>
     )
 }

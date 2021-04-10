@@ -1,0 +1,33 @@
+.bag-call-to-action .track-order {
+  /* text-decoration: none; */
+  /* background-color: red; */
+  border: 2px solid var(--colorPrimary);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.bag-call-to-action .track-order a {
+  text-decoration: none;
+  color: var(--colorPrimary);
+}
+
+.bag-goback.cont {
+  border: 2px solid var(--colorYellow);
+}
+
+.popper-emoji {
+  width: 200px;
+}
+
+.bag-section-comment.confirm-comment {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .bag-call-to-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}

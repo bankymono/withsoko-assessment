@@ -49,7 +49,6 @@ const products = [
 const ProductList = (props) => {
     const {goBack, goForward, setGoBack,setGoForward} = useContext(ProductsContext)
     
-    console.log('hello', props)
 
     const aRef = useRef(null)
 
@@ -58,8 +57,6 @@ const ProductList = (props) => {
 
         setGoForward('users-list-container')
         setGoBack('')
-        // divRef.current.classList.remove('users-list-container-slidein')
-        // divRef.current.classList.add('users-list-container')
         
        setTimeout(()=>{props.parentProp.history.push(`/${products[0].id}`)},300) 
         

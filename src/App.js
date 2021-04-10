@@ -44,9 +44,7 @@ function App() {
         <Route exact path="/purchase">
           <Purchase />
         </Route>
-        <Route exact path="/confirm">
-          <ConfirmationPage />
-        </Route>
+        <Route exact path="/confirm" component={ConfirmationPage} />
         <Route exact path="/track-order">
           <TrackOrder />
         </Route>

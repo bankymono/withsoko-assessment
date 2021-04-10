@@ -1,9 +1,20 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import './ConfirmationPage.css'
 import EmptyFaceEmoji from '../../images/party-popper.jpg'
 import { Link } from 'react-router-dom'
+import {ProductsContext} from '../../App'
 
-const ConfirmationPage = () => {
+const ConfirmationPage = (props) => {
+    const {setGoBack,setGoForward}= useContext(ProductsContext)
+    const handleClick = (e) =>{
+        e.preventDefault();
+
+        setGoBack('user-list-container-slidein')
+        setGoForward('')
+        
+        props.history.push(`/`) 
+        
+    }
     return (
         <div className="bag-overall">
             <div className="container">
@@ -19,7 +30,7 @@ const ConfirmationPage = () => {
 
                     <div className="bag-call-to-action">
                         <button className="track-order"><Link to="/track-order">Track Order</Link></button>
-                        <button className="bag-goback cont"><Link to="/">Continue Shopping</Link></button>
+                        <button className="bag-goback cont"><Link onClick={handleClick} to="/">Continue Shopping</Link></button>
                     </div>
                 </div>
             </div>
